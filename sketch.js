@@ -46,10 +46,10 @@ function setup() {
 
       //facingMode: "user"
 
-    //}
+    //}video
 
   };
-  video = createCapture(constraints);
+  video = createCapture(video);
   video.size(320, 320);
   video.hide();
 
